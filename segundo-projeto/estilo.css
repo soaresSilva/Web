@@ -1,0 +1,43 @@
+*{
+	font-size: 16px;
+	font-family: 'PT Serif', serif;
+	font-weight: 500;
+}
+
+main {
+	width: 900px;	
+	background-color:#FFFFFF;
+	border: 10px solid black;
+	padding: 5px;
+}
+
+h1 {
+	font-size: 1.4em;
+	font-family: 'Heebo', sans-serif;
+}
+.image {
+	width: 900px;
+}
+body {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+nav {
+	background-color: black;
+}
+nav > a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 1.4em;
+}
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+
+}
+.fonte-forte {
+	font-weight: bolder;
+}

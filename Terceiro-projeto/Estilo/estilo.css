@@ -1,0 +1,119 @@
+/* formatação geral */
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+h2 {
+	color: #f7bc00;
+}
+
+h3 {
+	color: #565656;
+	background: #ccc;
+	padding: 5px;
+}
+
+.data-postagem {
+	display: inline-block;
+	font-size: 0.8em;
+	border-bottom: 1px solid #e9f494;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #f7bc00;
+}
+a:hover {
+	box-shadow: 2px 3px 13px 1px #00000050;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+
+
+/* -----------------------------------------layout--------------------------------------------------------------- */
+
+/* ---------------menu e cabeçalho ------------*/
+#cabeçalho {
+	background: #f7bc00;
+	text-align: center;
+}
+#logo {
+	font-size: 2.5em;
+	font-weight: 900;
+	color: white;
+	padding: 15px;
+	padding-bottom: 0px;
+}
+#logo > span {
+	color: black;
+}
+#menu {
+	padding: 15px;
+	
+	font-size: 1.05em;
+}
+
+#menu a:link, #menu a:visited {
+	font-weight: 100;
+	padding: 10px;
+	color: white;
+}
+#menu a:hover {
+	color: #f7bc00;
+	background: white;
+	box-shadow: 2px 3px 13px 1px #00000050;
+	text-decoration: none;
+}
+
+/* --------------principal------------------------ */
+#principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+#conteudo {
+	width: 660px;
+	float: left;
+}
+.postagem {
+	margin-bottom: 20px;
+	padding: 20px;
+	background: white;
+}
+.postagem > img {
+	width: 620px;
+}
+
+/*----------------- Área lateral -----------------*/
+#lateral {
+	width: 240px;
+	float: right;
+}
+
+.postagem-lateral {
+	background: white;
+	font-size: 0.8em;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+/* Área de rodapé */
+#rodape {
+	background: #ccc;
+	text-align: center;
+	clear: both;
+}
+
